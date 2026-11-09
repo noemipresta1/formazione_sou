@@ -5,7 +5,7 @@
 
 ***Esercizio 6:** Scrivere un programma AWK che prende in input un file .csv e stampa il terzo campo solo se viene matchata la stringa "banana".* 
 
-***Esercizio 7:** Utilizzare il comando egrep per risolvere i seguenti esercizi (dando esempi di possibili input):\
+***Esercizio 7:** Utilizzare il comando egrep per risolvere i seguenti esercizi (dando esempi di possibili input):*
 
 -Matchare sequenze alfabetiche di almeno un carattere, sia maiuscole che minuscole
 
