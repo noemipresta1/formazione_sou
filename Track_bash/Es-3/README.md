@@ -1,7 +1,7 @@
 # Report esercizi - Noemi
 ## In questa cartella ho raccolto l'esercizio n.3 della track extra bash.
 
-***Esercizio 3:**. Trovare il modo (o più modi) per capire se il Kernel attualmente running è il più recente installato sulla macchina. Scrivere uno script che esegua automaticamente il controllo e risponda TRUE/FALSE.*
+***Esercizio 3:** Trovare il modo (o più modi) per capire se il Kernel attualmente running è il più recente installato sulla macchina. Scrivere uno script che esegua automaticamente il controllo e risponda TRUE/FALSE.*
 
 -In un file di testo Vi ho inserito un piccolo script che assegna alla variabile "running" la versione del kernel attualmente in esecuzione, tagliandola (a partire dal delimitatore "-") e tenendo soltanto il primo blocco dell'output.
 
