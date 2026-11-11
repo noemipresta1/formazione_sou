@@ -1,4 +1,7 @@
-Esercizio 1: Illustrare almeno 2 casi in cui il comando touch può generare errori.
+# Report esercizi - Noemi
+## In questa cartella ho raccolto l'esercizio n.1 della track extra bash.
+
+***Esercizio 1:** Illustrare almeno 2 casi in cui il comando touch può generare errori.*
 
 -Nel primo caso ho provato a creare un nuovo file vuoto attraverso il comando touch (fileprova.txt),chiedendo che venisse inserito in una cartella (che però non esiste ancora "cartellaprova"). In questo caso l'errore generato è "No such file or directory" perchè la cartella non è stata trovata.
 
