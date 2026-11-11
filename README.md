@@ -1,2 +1,2 @@
 # formazione_sou
-My first repository on GitHub
+## In questa macro cartella raccolgo gli esercizi di tutte le track.
