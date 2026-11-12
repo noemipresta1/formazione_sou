@@ -19,9 +19,9 @@ Questo si ripete fino al parametro #9
 * Il parametro 10 ha bisogno di utilizzare le parentesi graffe perché se scrivessi $10, la shell lo leggerebbe come $1 seguito da 0.
 
 * Stampa una riga separatoria (----------------)
-* Stampa "All the command-line parameters are: "$\*\"" (***$\*\:*** È una variabile che contiene in una stringa tutti i parametri passati allo script).
+* Stampa "All the command-line parameters are: "$\*\"" (***$\*\:*** Variabile che contiene in una stringa tutti i parametri passati allo script).
 
-* ***$#:*** È una variabile che indica il numero di parametri passati allo script.
+* ***$#:*** Variabile che indica il numero di parametri passati allo script.
 
-* ***[ $# -lt "$MINPARAMS" ]:*** Confronta due numeri. L'operatore -lt significa less than (minore di). Se il numero di parametri inseriti ($#) è inferiore a 10 ($MINPARAMS), stampa un messaggio di avviso.
+* ***[ $# -lt "$MINPARAMS" ]:*** -lt significa less than (minore di). Se il numero di parametri inseriti ($#) è <10 ($MINPARAMS), stampa un messaggio di avviso.
 * ***exit 0:*** Termina l'esecuzione dello script restituendo 0, ovvero non ci sono errori.
