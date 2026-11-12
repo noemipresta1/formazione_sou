@@ -15,3 +15,7 @@
 
 
 * ***pid=$!:*** La variabile ***$!*** prende il PID del processo in background così lo script conosce quale processo terminare.
+* ***trap "echo !; kill -USR1 $pid; wait $pid" EXIT:*** Nel caso in cui dovesse presentarsi un problema per cui lo script si interrompe all'improvviso, stampa un ***!*** e invia un segnale di interruzione al processo in background.
+
+* ***kill -USR1 $pid e wait $pid:*** A lavoro terminato, lo script manda il segnale USR1 al processo secondario per terminarlo.
+* ***trap EXIT:*** 
