@@ -5,3 +5,7 @@
 
 Possiamo utilizzare il comando "ps -e" per visualizzare tutti i processi in esecuzione su questa macchina, poi inserendo una pipe possiamo reindirizzare l'output di questo primo comando ad un altro che conta quanti sono i processi: "ps -e | wc -l".
 
+
+<img width="327" height="71" alt="Es 2 track extra" src="https://github.com/user-attachments/assets/cbf4ea93-e18c-4aed-8403-da07fa9a2358" />
+
+
