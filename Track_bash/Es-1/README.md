@@ -8,3 +8,5 @@
 * Ho provato a modificare i permessi relativi al file "ciaao" rimuovendo quello di scrittura (chmod -w). Come possiamo vedere con ls -l i permessi sono stati modificati ma visto che l'utente che ha creato il file sono io mi permette comunque di utilizzare touch come modifica di timestamp, se fosse stato creato da un altro utente avrebbe generato errore di permesso negato.
 
 * Ho provato a inserire "ciao" nel file ciaao (andando a sostituire il contenuto del testo all'interno del file). L'errore generato è "permission denied".
+
+<img width="782" height="217" alt="Screenshot 2026-11-03 alle 12 16 21" src="https://github.com/user-attachments/assets/dc54587b-8d2d-4ed6-90c6-6366d881b579" />
