@@ -6,20 +6,20 @@
 
 -La prima lettera deve diventare maiuscola;
 
--deve essere scritto tutto in pipe.
+-deve essere scritto tutto in pipe. <br>
+<br>
 
-* Come prima cosa mi creo il file .csv
+
+
+* Come prima cosa creo il file .csv
   
- <img width="416" height="150" alt="Screenshot 2026-11-19 alle 15 11 40" src="https://github.com/user-attachments/assets/017b8f1f-45f2-43ce-a8d3-1546fce2dc1e" /> <br>
-
+<img width="479" height="142" alt="Screenshot 2026-11-19 alle 15 26 38" src="https://github.com/user-attachments/assets/ce626aa3-2651-4146-9d29-bb7e14510e28" />
 
 * Utilizzo **awk** e considero la virgola come separatore (-F ','), estraggo e stampo la colonna cognome (secondo campo, **($2)**) del file datiper.csv, direzionando l'output al comando successivo
   
 ```awk -F ','  '{ print $2 }' datiper.csv |``` 
 
-
-<img width="416" height="125" alt="Screenshot 2026-11-19 alle 15 15 39" src="https://github.com/user-attachments/assets/27811044-6ea2-49f6-ae2d-2f3bf44050a2" />
-
+<img width="479" height="142" alt="Screenshot 2026-11-19 alle 15 25 36" src="https://github.com/user-attachments/assets/38d95315-7ff2-49f6-be24-b90aa45b769e" />
 
 * Con **grep** prendo l'output ricevuto e filtro il risultato che voglio ottenere: attraverso **-E** abilito le regex e limito il nuovo output ad un cognome usando **-m 1** (max count). 
 
