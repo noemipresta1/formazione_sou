@@ -28,6 +28,7 @@
 <img width="628" height="48" alt="Screenshot 2026-11-19 alle 15 17 25" src="https://github.com/user-attachments/assets/ef293b1a-3f7f-4555-aea4-c1c26598cc43" />
 
 * Infine con **sed** chiedo di trasformare la prima lettera del cognome da minuscola a maiuscola:
+
 ```| sed 's/\b./\U&/'```
 
   **\b.** prende la prima lettera del cognome;
@@ -35,6 +36,9 @@
   **\U&** trasforma in maiuscolo.
 
 <img width="767" height="48" alt="Screenshot 2026-11-19 alle 15 19 04" src="https://github.com/user-attachments/assets/b68a0482-f073-4a67-9552-9cd636bc0303" /> <br>
+
+
+**Dunque diventa:** ```awk -F ','  '{ print $2 }' datiper.csv | grep -E -m 1 'minelli|daiu' | sed 's/\b./\U&/'```
 
 
 
