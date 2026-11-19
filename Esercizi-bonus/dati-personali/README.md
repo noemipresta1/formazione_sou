@@ -16,7 +16,6 @@
 ```bash
 vi datiper.csv
 cat datiper.csv
-
 nome,cognome,numero
 mattia,minelli,331
 vincenzo,abete,332
@@ -32,7 +31,6 @@ domenico,nasso,337
 
 ```bash
 awk -F ',' '{ print $2 }' datiper.csv
-
 minelli
 abete
 de mattia
