@@ -18,7 +18,7 @@ fi
 ```
 numero=$1
 
-if ! [[ "$numero"=~[1-9][0-9]* ]]; then
+if ! [[ "$numero" =~ ^[1-9][0-9]* ]]; then
     echo "Attenzione,'$numero' non è un numero intero positivo." >&2
     exit 1
 fi
