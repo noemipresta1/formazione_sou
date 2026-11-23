@@ -26,7 +26,7 @@ fi
 ```
 * *esegue un ciclo che conta da 1 al numero inserito e li stampa indicando se sono pari o dispari*
 ```
-for (( i=1; i<=N; i++ )); do
+for (( i=1; i<=numero; i++ )); do
     if (( i % 2 == 0 )); then
         echo "$i: Pari"
     else
