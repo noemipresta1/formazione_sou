@@ -1,6 +1,5 @@
 ## Questo script mostra l'implementazione di una progress bar. 
 
-## Questo script mostra l'implementazione di una progress bar. 
 
 * ***`interval=1`:*** Fissa l'intervallo di attesa tra stampa di un puntino e l'altro a 1 secondo.
 * ***`long_interval=10`:*** Fissa la durata del "processo lungo" a 10 secondi".
