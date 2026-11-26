@@ -28,6 +28,4 @@
 
 *  `-E` attiva le Extended Regular Expressions. <br>
 
-* `'...'` gli apici singoli proteggono l'espressione regolare, impedendo alla shell Bash di interpretare i simboli speciali prima di passarli a grep.
-
 * `\b` segna il confine di una parola o di un numero.
