@@ -13,7 +13,7 @@ if [ "$#" -ne 1 ]; then
     exit 1
 fi
 ```
-
+`>&2` reindirizza il messaggio d'errore sullo standard error e interrompe l'esecuzione del programma ---> `exit 1`
 * *verifica che l'input corrisponda ad un numero intero positivo*
 ```
 numero=$1
@@ -24,9 +24,10 @@ if ! [[ "$numero" =~ ^[1-9][0-9]* ]]; then
 fi
 
 ```
+
 * *esegue un ciclo che conta da 1 al numero inserito e li stampa indicando se sono pari o dispari*
 ```
-for (( i=1; i<=numero; i++ )); do
+for (( i=1; i<=numero; i++ )); do  
     if (( i % 2 == 0 )); then
         echo "$i: Pari"
     else
@@ -36,4 +37,6 @@ done
 
 exit 0
 ```
+* viene creato `i`, un contatore che partendo da 1 aumenta di 1 ad ogni giro e continua a ripetere le istruzioni fino a quando `i<=numero`, ovvero ***i*** non supera il valore della variabile numero. <br>
 
+* poi si controlla se il numero attuale ***i*** è pari. L'operatore % calcola il resto della divisione tra ***i*** e 2: se il resto è 0, allora stampa "pari" altrimenti "dispari".
